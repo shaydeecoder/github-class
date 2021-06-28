@@ -4,16 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> <!-- href="image/" -->
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css" />
     <title>GitHub Class</title>
+
+    <!-- Internal CSS or Embedded CSS -->
+    <style>
+      /* This is a CSS comment */
+
+      p {
+        font-size: 150px;
+      }
+
+      #paragraph {
+        text-decoration: underline;
+      }
+
+      .general-p {
+        border: 10px solid black;
+      }
+
+      .paragraph-1 {
+        color: Blue;
+      }
+
+      .paragraph-2 {
+        color: red;
+      }
+    </style>
   </head>
 
   <body>
-    <p>
-      This is a github class hosted on google meet!
-    </p>
+    <!-- This is a comment, do not display this on the browser -->
+    <!-- Internal CSS -->
+    <p id='paragraph'class='paragraph-1 general-p'>Hellow world!</p>
+    <p id='paragraph'class='paragraph-2 general-p'>This is my second paragraph!</p>
 
-    <p>
-      Making a new change
-    </p>
+    <!-- Inline CSS -->
+    <p class="paragraph-3" style='color: green; border: 10px solid green'>I'm an inline CSS style</p>
   </body>
 </html>

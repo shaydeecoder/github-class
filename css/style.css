@@ -1,1 +1,23 @@
-/* This is my css file */
+/* This is my external css file */
+
+.paragraph-1 {
+  /* rgb color code */
+  background-color: rgb(255, 0, 0);
+}
+
+.paragraph-2 {
+  /* hexcode */
+  background-color: #000000;
+  color: #fff;
+}
+
+.paragraph-3 {
+  background-color: rgba(255, 0, 255, 0.3);
+}
+
+/* Color codes
+1. rgb
+2. rgba
+3. Hexcode
+4. HSL
+*/
